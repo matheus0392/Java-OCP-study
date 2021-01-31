@@ -2,6 +2,10 @@ package ocp.a.Advanced.Class.Design.InstanceOf;
 
 import static java.lang.System.*;
 
+interface Mother {
+
+}
+
 class HeavyAnimal {
 }
 
@@ -35,6 +39,7 @@ public class InstanceOf {
 
 		out.println(String.format("%b %b %b", b4, b5, b5_1));
 		
+		@SuppressWarnings("unused")
 		Hippo anotherHippo = new Hippo();
 		/** boolean b5 = anotherHippo instanceof Elephant; **/  // DOES NOT COMPILE
 		//The compiler knows that there is no possible way for a Hippo variable reference to be an Elephant

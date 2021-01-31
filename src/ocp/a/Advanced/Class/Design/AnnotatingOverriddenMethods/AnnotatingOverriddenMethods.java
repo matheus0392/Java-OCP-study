@@ -1,7 +1,5 @@
 package ocp.a.Advanced.Class.Design.AnnotatingOverriddenMethods;
 
-import static java.lang.System.*;
-
 class Bobcat {
 	public void findDen() {
 	}
