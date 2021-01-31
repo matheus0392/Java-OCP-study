@@ -34,10 +34,9 @@ public class InstanceOf {
 		//If the literal null or a variable reference pointing to null is used to check instanceof, the result is false
 
 		out.println(String.format("%b %b %b", b4, b5, b5_1));
-
-		/**
+		
 		Hippo anotherHippo = new Hippo();
-		boolean b5 = anotherHippo instanceof Elephant; **/  // DOES NOT COMPILE
+		/** boolean b5 = anotherHippo instanceof Elephant; **/  // DOES NOT COMPILE
 		//The compiler knows that there is no possible way for a Hippo variable reference to be an Elephant
 
 		hippo = new Hippo();
