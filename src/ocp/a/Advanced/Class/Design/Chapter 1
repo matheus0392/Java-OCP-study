@@ -1,0 +1,16 @@
+Chapter 1
+Advanced Class Design
+The OCP exam topics covered in this chapter include the following:
+
+✓ Java Class Design
+■■ Implement inheritance including visibility modifiers and composition
+■■ Implement polymorphism
+■■ Override hashCode, equals, and toString methods from Object class
+■■ Develop code that uses the static keyword on initialize blocks, variables, methods, and classes
+
+✓ Advanced Java Class Design
+■■ Develop code that uses abstract classes and methods
+■■ Develop code that uses final keyword
+■■ Create inner classes including static inner class, local class, nested class, and anonymous inner class
+■■ Use enumerated types including methods, and constructors in an enum type
+■■ Develop code that declares, implements, and/or extends interface and use the @Override annotation
