@@ -58,4 +58,6 @@ class Lion {
 		return this.idNumber == otherLion.idNumber;
 	}
 	//public boolean equals(Object obj)
+
+	public int hashCode() { return idNumber; }
 }
