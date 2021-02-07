@@ -1,5 +1,6 @@
-package ocp.a.Advanced.Class.Design.InstanceOf;
+package ocp.ch1.AdvancedClassDesign.InstanceOf;
 
+//Make sure that they are importing static methods or variables rather than class names.
 import static java.lang.System.*;
 
 interface Mother {
@@ -38,7 +39,7 @@ public class InstanceOf {
 		//If the literal null or a variable reference pointing to null is used to check instanceof, the result is false
 
 		out.println(String.format("%b %b %b", b4, b5, b5_1));
-		
+
 		@SuppressWarnings("unused")
 		Hippo anotherHippo = new Hippo();
 		/** boolean b5 = anotherHippo instanceof Elephant; **/  // DOES NOT COMPILE
@@ -49,7 +50,7 @@ public class InstanceOf {
 		HeavyAnimal eleph = new Elephant();
 		boolean b7 = eleph instanceof Mother;
 		// When checking whether an object is an instanceof an interface, Java waits until runtime to do the check
-		
+
 		out.println(String.format("%b %b", b6, b7));
 	}
 }

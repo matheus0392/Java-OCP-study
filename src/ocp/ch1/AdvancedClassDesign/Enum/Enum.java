@@ -1,4 +1,4 @@
-package ocp.a.Advanced.Class.Design.Enum;
+package ocp.ch1.AdvancedClassDesign.Enum;
 
 import static java.lang.System.*;
 
@@ -8,12 +8,12 @@ enum Season {
 	// besides the values.
 	/*WINTER("Low"), SPRING("Medium"), SUMMER("High"), FALL("Medium");
 
-	 a constructor
-	 The constructor is private because it can only be called from within the enum
+	 //The constructor is private because it can only be called from within the enum
+	 //The constructors are required to be private or package private
 	Season(String expectedVisitors) {
 		this.expectedVisitors = expectedVisitors;
-	}*/
-
+	}
+	 */
 
 	/*WINTER {
 		public void printHours() {
@@ -37,7 +37,7 @@ enum Season {
 	};
 
 	public abstract void printHours();
-*/
+	 */
 
 	WINTER {
 		public void printHours() {
@@ -62,6 +62,7 @@ enum Season {
 		out.println(expectedVisitors);
 	}
 
+	Enum enum_; //Enums are allowed to have instance variables
 }
 
 enum OnlyOne {

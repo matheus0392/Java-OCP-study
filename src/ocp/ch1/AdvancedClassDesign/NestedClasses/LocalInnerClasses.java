@@ -1,4 +1,4 @@
-package ocp.a.Advanced.Class.Design.NestedClasses;
+package ocp.ch1.AdvancedClassDesign.NestedClasses;
 
 import static java.lang.System.*;
 
@@ -10,7 +10,7 @@ public class LocalInnerClasses {
 
 		//effectively final.
 		int width2= 20;
-		
+
 		// not effectively final.
 		int width3= 20;
 		width3 ++;

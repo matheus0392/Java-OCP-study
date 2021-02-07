@@ -1,4 +1,4 @@
-package ocp.a.Advanced.Class.Design.VirtualMethod;
+package ocp.ch1.AdvancedClassDesign.VirtualMethod;
 
 import static java.lang.System.*;
 

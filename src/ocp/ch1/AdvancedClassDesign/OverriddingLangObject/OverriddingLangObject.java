@@ -1,4 +1,4 @@
-package ocp.a.Advanced.Class.Design.OverriddingLangObject;
+package ocp.ch1.AdvancedClassDesign.OverriddingLangObject;
 
 import static java.lang.System.*;
 

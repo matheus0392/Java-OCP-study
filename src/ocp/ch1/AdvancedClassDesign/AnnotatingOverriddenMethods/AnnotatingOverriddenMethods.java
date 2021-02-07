@@ -1,4 +1,4 @@
-package ocp.a.Advanced.Class.Design.AnnotatingOverriddenMethods;
+package ocp.ch1.AdvancedClassDesign.AnnotatingOverriddenMethods;
 
 class Bobcat {
 	public void findDen() {
@@ -10,7 +10,7 @@ class BobcatMother extends Bobcat {
 	public void findDen() {
 	}
 
-	/** @Override 
+	/** @Override
 	 public void findDen(boolean b) { }**/ // DOES NOT COMPILE
 	//Java recognizes that this is a broken promise and gives it a compiler error.
 }

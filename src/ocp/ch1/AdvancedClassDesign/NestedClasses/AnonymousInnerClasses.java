@@ -1,4 +1,4 @@
-package ocp.a.Advanced.Class.Design.NestedClasses;
+package ocp.ch1.AdvancedClassDesign.NestedClasses;
 
 import static java.lang.System.*;
 
