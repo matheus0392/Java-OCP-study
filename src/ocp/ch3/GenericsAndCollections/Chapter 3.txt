@@ -1,6 +1,6 @@
 Chapter 3
-The OCP exam topics covered in this
-chapter include the following:
+Generics and Collections
+The OCP exam topics covered in this chapter include the following:
 
 ✓ Generics and Collections
 ■■ Create and use a generic class
@@ -8,9 +8,12 @@ chapter include the following:
 ■■ Use java.util.Comparator and java.lang.Comparable interfaces
 ■■ Iterate using forEach methods on Streams and List
 ■■ Use method references with Streams
+
 ✓ Advanced Java Class Design
 ■■ Create and use lambda expressions
+
 ✓ Generics and Collections
 ■■ Filter a collection using lambda expressions
+
 ✓ Java Stream API
 ■■ Use of merge() and flatMap() methods of the Stream API

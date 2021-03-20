@@ -3,16 +3,14 @@ Design Patterns and Principles
 The OCP exam topics covered in this chapter include the following:
 
 ✓ Advanced Java Class Design
-■■ Develop code that declares, implements, and/or extends
-interfaces and use the @Override annotation
+■■ Develop code that declares, implements, and/or extends interfaces and use the @Override annotation
 ■■ Create and use Lambda expressions
+
 ✓ Lambda Built‐in Functional Interfaces
-■■ Use the built‐in interfaces included in the java.util.function
-package such as Predicate, Consumer, Function, and
-Supplier
+■■ Use the built‐in interfaces included in the java.util.function package such as Predicate, Consumer, Function, and Supplier
+
 ✓ Java Class Design
 ■■ Implement encapsulation
-■■ Implement inheritance including visibility modifiers and
-composition
+■■ Implement inheritance including visibility modifiers and composition
 ■■ Implement polymorphism
 ■■ Create and use singleton classes and immutable classes
